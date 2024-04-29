@@ -4,14 +4,7 @@ import pygame
 import math
 from pygame import mixer
 
-
 pygame.init()
-
-
-
-
-pygame.init()
-
 
 with open("score.txt", "a+") as f:
 
@@ -1274,8 +1267,3 @@ while run1:
     run1 = False
     with open("score.txt","a+") as f:
         f.write(f'\n{score}')
-
-
-
-
-
